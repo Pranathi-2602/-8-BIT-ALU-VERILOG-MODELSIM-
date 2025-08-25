@@ -1,5 +1,5 @@
 // alu.v - 8-bit ALU
-module alu(
+module alu (
     input  [7:0] A, B,        // Two 8-bit inputs
     input  [2:0] opcode,      // Operation selector (3 bits)
     output reg [7:0] result,  // Result of operation
